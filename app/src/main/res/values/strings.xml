@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lession</string>
+    <string name="setting">Settings</string>
+    <string name="subtitle_doc">with ABCDE criteria.</string>
+    <string name="asymmetry">Most malignant skin lesions are asymmetrical. If you draw a line through the middle of the lesion, the two halves don’t match, so it looks different from a round to oval and symmetrical common mole.</string>
+    <string name="border">Malignant skin lesions borders tend to be uneven and may have scalloped or notched edges, while common moles tend to have smoother, more even borders.</string>
+    <string name="color">Multiple colors are a warning sign. While benign moles are usually a single shade of brown, malignant skin lesions may have different shades of brown, tan or black. As it grows, the colors red, white or blue may also appear.</string>
+    <string name="diameter">While it’s ideal to detect a malignant skin lesion when it is small, it’s a warning sign if a lesion is the size of a pencil eraser (about 6 mm, or ¼ inch in diameter) or larger.</string>
+    <string name="evolving">Any change in size, shape, color or elevation of a spot on your skin, or any new symptom in it, such as bleeding, itching or crusting, may be a warning sign of malignant skin lesions.</string>
+    <string name="A_title">A is Asymmetry</string>
+    <string name="B_title">B is Border</string>
+    <string name="abcde_criteria">Self Detection</string>
+    <string name="C_title">C is Color</string>
+    <string name="D_title">D is Diameter</string>
+    <string name="E_title">E is Evolving</string>
+    <string name="analyze">analyze</string>
+    <string name="edit">EDIT</string>
+    <string name="save">SAVE</string>
+    <string name="App_id">ca-app-pub-5224279588036591~3677515890</string>
+    <string name="no_result">No Result</string>
+    <string name="demo">demo</string>
+    <string name="instruc">place the lesion inside the circle</string>
+    <string name="instruc1">place the lesion inside the circle</string>
+    <string name="instruc2">Tap on the center of the circle to focus</string>
+</resources>
