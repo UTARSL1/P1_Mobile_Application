@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "295127806335",
+    "firebase_url": "https://skin-lesion-detection-21b01.firebaseio.com",
+    "project_id": "skin-lesion-detection-21b01",
+    "storage_bucket": "skin-lesion-detection-21b01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295127806335:android:555a1645122515c2feaa4a",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295127806335-4c2k7e63f5i174ljh3m6659sn6ir9k40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1d73RJZIQQNN9EpZxZUOakRr8IIW9SwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295127806335-4c2k7e63f5i174ljh3m6659sn6ir9k40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

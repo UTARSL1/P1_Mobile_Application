@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/camera_bg"
+        android:alpha="0.4"
+        android:elevation="1dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/camera_bg"
+        android:alpha="0.4"
+        android:elevation="1dp"
+        android:rotation="180" />
+
+
+    <com.otaliastudios.cameraview.CameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cameraView"
+        app:cameraFlash="torch"
+        app:cameraAudio="off"
+        app:cameraFacing="back"
+        app:cameraMode="picture"
+        app:cameraEngine="camera1"
+        android:layout_centerInParent="true"
+        app:cameraPlaySounds="false"
+        app:cameraGestureTap="autoFocus"
+        app:cameraPictureFormat="jpeg"
+        app:cameraPreview="glSurface"
+        app:cameraPictureSnapshotMetering="true" />
+
+
+    <ImageButton
+        android:id="@+id/cancel"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/ic_baseline_close_24"
+        android:alpha="0.7"
+        android:elevation="2dp" />
+
+    <ImageView
+        android:id="@+id/frame"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/frame"
+        android:alpha="0.5" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:padding="10dp"
+        android:stateListAnimator="@null"
+        android:background="@null"
+        android:id="@+id/capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/capture_icon"
+        android:elevation="2dp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruc"
+        android:textColor="@color/marble_white"
+        android:alpha="0.7"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/capture"
+        android:elevation="2dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp">
+
+            <Button
+                android:id="@+id/camera"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:drawableTop="@drawable/ic_ar_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp">
+
+            <Button
+                android:id="@+id/upload"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:drawableTop="@drawable/ic_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:layout_gravity="center" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>
